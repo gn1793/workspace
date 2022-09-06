@@ -1,0 +1,19 @@
+GIT
+	버전관리 시스템(VCS, Version Control System)
+
+주요 기능
+
+	버전관리	git의 가장 기본적인 기능으로 문서의 버전(히스토리)를 관리한다
+	백업	로컬 저장소의 문서를 원격 저장소에 백업하는 기능을 제공한다
+	협업	원격 저장소에 백업된 문서를 푸시(Push)/풀(Pull)하여 반복 협업이 가능하다
+
+GITHUB(원격 저장소의 일종)
+	GIT을 사용할 때 백업을 위해 원격 저장소(Hub)를 제공해 주는 서비스
+
+GIT 상태
+	GIT 파일은 항상 다음 3가지 상태 중 하나의 상태를 갖는다
+	modified -> staged -> committed
+	
+	modided		로컬에서 파일을 수정중인 상태
+	staged		commit이 되기 전 상태(임시 저장 상태)
+	committed	수정사항들이 자신의 로컬 GIT 환경에 저장되있는 상태
